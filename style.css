@@ -1,0 +1,63 @@
+body{
+    background: url(images/clock.jpg) center center fixed;
+    background-size: cover;
+    color: coral;
+}
+#header{
+    text-align: center;
+    font-size: 7vw;
+}
+#lap{
+    text-align: right;
+    font-size: 4vw;
+
+}
+#time {
+    text-align: center;
+    font-size: 10vw;
+}
+
+.controlContainer{
+    margin-bottom: 100px;
+}
+.control{
+    background-color: darkgrey;
+    border-radius: 100%;
+    text-align: center;
+    height: 10vw;
+    width: 10vw;
+    padding: 20% 0;
+    font-size: 2.5vw;
+    cursor: pointer;
+    color: white;
+    display: none;
+}
+.control:active{
+    background-color: coral;
+    color: white;
+    
+}
+.control:hover{
+     background-color: chocolate;
+    color: white;
+}
+#laps {
+    max-height: 270px;
+    overflow-y: scroll;
+}
+.lap{
+    height: 50px;
+    border-bottom: 1px solid black;
+    background: rgba( 48, 13, 13, 0.3);
+    border-radius: 10px;
+    margin: 15px;    
+}
+
+.laptimetitle{
+    font-size: 1.5em;
+    float: left;
+}
+.laptime{
+    font-size: 2em;
+    float: right;
+}
